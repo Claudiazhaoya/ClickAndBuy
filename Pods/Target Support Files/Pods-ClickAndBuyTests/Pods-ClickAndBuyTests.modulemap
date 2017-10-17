@@ -1,0 +1,6 @@
+framework module Pods_ClickAndBuyTests {
+  umbrella header "Pods-ClickAndBuyTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26FB69123B28F71C6C2276D0 /* Pods_ClickAndBuy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4E24566DFEA44ECA4E94FB /* Pods_ClickAndBuy.framework */; };
+		4EFB54CE60C99E6E6E428758 /* Pods_ClickAndBuyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1BE489726CE256A5AFB278B /* Pods_ClickAndBuyUITests.framework */; };
 		97F1A8501F858650008D78DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F1A84F1F858650008D78DE /* AppDelegate.swift */; };
 		97F1A8521F858650008D78DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F1A8511F858650008D78DE /* ViewController.swift */; };
 		97F1A8551F858650008D78DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97F1A8531F858650008D78DE /* Main.storyboard */; };
@@ -15,6 +17,9 @@
 		97F1A85D1F858650008D78DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97F1A85B1F858650008D78DE /* LaunchScreen.storyboard */; };
 		97F1A8681F858650008D78DE /* ClickAndBuyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F1A8671F858650008D78DE /* ClickAndBuyTests.swift */; };
 		97F1A8731F858650008D78DE /* ClickAndBuyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F1A8721F858650008D78DE /* ClickAndBuyUITests.swift */; };
+		97F1A8811F858E5A008D78DE /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97F1A8801F858E5A008D78DE /* Login.storyboard */; };
+		97F1A8831F858ECF008D78DE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F1A8821F858ECF008D78DE /* LoginViewController.swift */; };
+		EDE6086D362C2471E027BE1E /* Pods_ClickAndBuyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58CEE914179D408BE983203C /* Pods_ClickAndBuyTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		216323E21E19CF17E1E2D84A /* Pods-ClickAndBuyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClickAndBuyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClickAndBuyUITests/Pods-ClickAndBuyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3DBC5B4461057244C0D6C67E /* Pods-ClickAndBuy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClickAndBuy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClickAndBuy/Pods-ClickAndBuy.debug.xcconfig"; sourceTree = "<group>"; };
+		3F9CE8CF26F0A0B223416BAE /* Pods-ClickAndBuyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClickAndBuyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClickAndBuyTests/Pods-ClickAndBuyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		58CEE914179D408BE983203C /* Pods_ClickAndBuyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClickAndBuyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		97F1A84C1F858650008D78DE /* ClickAndBuy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClickAndBuy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97F1A84F1F858650008D78DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		97F1A8511F858650008D78DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +58,13 @@
 		97F1A86E1F858650008D78DE /* ClickAndBuyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClickAndBuyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		97F1A8721F858650008D78DE /* ClickAndBuyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickAndBuyUITests.swift; sourceTree = "<group>"; };
 		97F1A8741F858650008D78DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97F1A8801F858E5A008D78DE /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		97F1A8821F858ECF008D78DE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9DB4725271278215FFCE1A43 /* Pods-ClickAndBuy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClickAndBuy.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClickAndBuy/Pods-ClickAndBuy.release.xcconfig"; sourceTree = "<group>"; };
+		9E413E925B558F40E4EDA477 /* Pods-ClickAndBuyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClickAndBuyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClickAndBuyTests/Pods-ClickAndBuyTests.release.xcconfig"; sourceTree = "<group>"; };
+		CB4E24566DFEA44ECA4E94FB /* Pods_ClickAndBuy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClickAndBuy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1BE489726CE256A5AFB278B /* Pods_ClickAndBuyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClickAndBuyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF3EE1843084ACFF29662CA /* Pods-ClickAndBuyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClickAndBuyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClickAndBuyUITests/Pods-ClickAndBuyUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26FB69123B28F71C6C2276D0 /* Pods_ClickAndBuy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDE6086D362C2471E027BE1E /* Pods_ClickAndBuyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +88,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EFB54CE60C99E6E6E428758 /* Pods_ClickAndBuyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		38A31EE3DEFC308B2DC74A07 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3DBC5B4461057244C0D6C67E /* Pods-ClickAndBuy.debug.xcconfig */,
+				9DB4725271278215FFCE1A43 /* Pods-ClickAndBuy.release.xcconfig */,
+				3F9CE8CF26F0A0B223416BAE /* Pods-ClickAndBuyTests.debug.xcconfig */,
+				9E413E925B558F40E4EDA477 /* Pods-ClickAndBuyTests.release.xcconfig */,
+				EDF3EE1843084ACFF29662CA /* Pods-ClickAndBuyUITests.debug.xcconfig */,
+				216323E21E19CF17E1E2D84A /* Pods-ClickAndBuyUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		97F1A8431F858650008D78DE = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +115,8 @@
 				97F1A8661F858650008D78DE /* ClickAndBuyTests */,
 				97F1A8711F858650008D78DE /* ClickAndBuyUITests */,
 				97F1A84D1F858650008D78DE /* Products */,
+				38A31EE3DEFC308B2DC74A07 /* Pods */,
+				C6B5A80A8FFF946494455FD0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,10 +136,12 @@
 				97F1A84F1F858650008D78DE /* AppDelegate.swift */,
 				97F1A8511F858650008D78DE /* ViewController.swift */,
 				97F1A8531F858650008D78DE /* Main.storyboard */,
+				97F1A8801F858E5A008D78DE /* Login.storyboard */,
 				97F1A8591F858650008D78DE /* Assets.xcassets */,
 				97F1A85B1F858650008D78DE /* LaunchScreen.storyboard */,
 				97F1A85E1F858650008D78DE /* Info.plist */,
 				97F1A8561F858650008D78DE /* ClickAndBuy.xcdatamodeld */,
+				97F1A8821F858ECF008D78DE /* LoginViewController.swift */,
 			);
 			path = ClickAndBuy;
 			sourceTree = "<group>";
@@ -128,6 +164,16 @@
 			path = ClickAndBuyUITests;
 			sourceTree = "<group>";
 		};
+		C6B5A80A8FFF946494455FD0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB4E24566DFEA44ECA4E94FB /* Pods_ClickAndBuy.framework */,
+				58CEE914179D408BE983203C /* Pods_ClickAndBuyTests.framework */,
+				D1BE489726CE256A5AFB278B /* Pods_ClickAndBuyUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 97F1A8771F858650008D78DE /* Build configuration list for PBXNativeTarget "ClickAndBuy" */;
 			buildPhases = (
+				6BA90E4D4E5495F37B2A22BC /* [CP] Check Pods Manifest.lock */,
 				97F1A8481F858650008D78DE /* Sources */,
 				97F1A8491F858650008D78DE /* Frameworks */,
 				97F1A84A1F858650008D78DE /* Resources */,
+				F439228DFCD4D9CFCDFF51A1 /* [CP] Embed Pods Frameworks */,
+				968C5840F04A5DE2D06ED8FA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +201,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 97F1A87A1F858650008D78DE /* Build configuration list for PBXNativeTarget "ClickAndBuyTests" */;
 			buildPhases = (
+				2D88F23B1E408A2DAB043ED4 /* [CP] Check Pods Manifest.lock */,
 				97F1A85F1F858650008D78DE /* Sources */,
 				97F1A8601F858650008D78DE /* Frameworks */,
 				97F1A8611F858650008D78DE /* Resources */,
+				C8AE45FDB93B32028879436B /* [CP] Embed Pods Frameworks */,
+				EA9D66F20ACF4A8CE44122B9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +222,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 97F1A87D1F858650008D78DE /* Build configuration list for PBXNativeTarget "ClickAndBuyUITests" */;
 			buildPhases = (
+				9DC1211388A7E1151773D04E /* [CP] Check Pods Manifest.lock */,
 				97F1A86A1F858650008D78DE /* Sources */,
 				97F1A86B1F858650008D78DE /* Frameworks */,
 				97F1A86C1F858650008D78DE /* Resources */,
+				050C2A23C0A8EFDDC50F564C /* [CP] Embed Pods Frameworks */,
+				C4BC60EF9B9984E90F03CF89 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,6 +290,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97F1A8811F858E5A008D78DE /* Login.storyboard in Resources */,
 				97F1A85D1F858650008D78DE /* LaunchScreen.storyboard in Resources */,
 				97F1A85A1F858650008D78DE /* Assets.xcassets in Resources */,
 				97F1A8551F858650008D78DE /* Main.storyboard in Resources */,
@@ -257,11 +313,171 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		050C2A23C0A8EFDDC50F564C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClickAndBuyUITests/Pods-ClickAndBuyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D88F23B1E408A2DAB043ED4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ClickAndBuyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BA90E4D4E5495F37B2A22BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ClickAndBuy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		968C5840F04A5DE2D06ED8FA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ClickAndBuy/Pods-ClickAndBuy-resources.sh",
+				$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebaseAuthUI.bundle,
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClickAndBuy/Pods-ClickAndBuy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DC1211388A7E1151773D04E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ClickAndBuyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4BC60EF9B9984E90F03CF89 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClickAndBuyUITests/Pods-ClickAndBuyUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8AE45FDB93B32028879436B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClickAndBuyTests/Pods-ClickAndBuyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA9D66F20ACF4A8CE44122B9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClickAndBuyTests/Pods-ClickAndBuyTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F439228DFCD4D9CFCDFF51A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ClickAndBuy/Pods-ClickAndBuy-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClickAndBuy/Pods-ClickAndBuy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		97F1A8481F858650008D78DE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97F1A8831F858ECF008D78DE /* LoginViewController.swift in Sources */,
 				97F1A8521F858650008D78DE /* ViewController.swift in Sources */,
 				97F1A8501F858650008D78DE /* AppDelegate.swift in Sources */,
 				97F1A8581F858650008D78DE /* ClickAndBuy.xcdatamodeld in Sources */,
@@ -428,12 +644,14 @@
 		};
 		97F1A8781F858650008D78DE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DBC5B4461057244C0D6C67E /* Pods-ClickAndBuy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5Y75U338KC;
 				INFOPLIST_FILE = ClickAndBuy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = purdue.ClickAndBuy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShwethaUmashanker.ClickAndBuy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -442,12 +660,14 @@
 		};
 		97F1A8791F858650008D78DE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DB4725271278215FFCE1A43 /* Pods-ClickAndBuy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5Y75U338KC;
 				INFOPLIST_FILE = ClickAndBuy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = purdue.ClickAndBuy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShwethaUmashanker.ClickAndBuy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -456,6 +676,7 @@
 		};
 		97F1A87B1F858650008D78DE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F9CE8CF26F0A0B223416BAE /* Pods-ClickAndBuyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -472,6 +693,7 @@
 		};
 		97F1A87C1F858650008D78DE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E413E925B558F40E4EDA477 /* Pods-ClickAndBuyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +710,7 @@
 		};
 		97F1A87E1F858650008D78DE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDF3EE1843084ACFF29662CA /* Pods-ClickAndBuyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -503,6 +726,7 @@
 		};
 		97F1A87F1F858650008D78DE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 216323E21E19CF17E1E2D84A /* Pods-ClickAndBuyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

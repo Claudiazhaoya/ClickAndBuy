@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="sks-d6-1fv">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Futura.ttc">
+            <string>Futura-Bold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Login View Controller-->
+        <scene sceneID="UKA-fd-tHs">
+            <objects>
+                <viewController storyboardIdentifier="Login " id="sks-d6-1fv" customClass="LoginViewController" customModule="ClickAndBuy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5K1-Vc-yBX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lDm-q0-n2J">
+                                <rect key="frame" x="67" y="161" width="240" height="128"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Click And Buy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IGr-nV-R2B">
+                                        <rect key="frame" x="44" y="27" width="152" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="19"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.69539771225533864" green="1" blue="0.9407234395394114" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zcS-Mh-0qv">
+                                <rect key="frame" x="76" y="325" width="167" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.46043330504198188" green="0.77389718248205419" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Register or Log in">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="LoginButtonTapped:" destination="sks-d6-1fv" eventType="touchUpInside" id="Lmx-uB-CYF"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="09Q-c9-Hjy" firstAttribute="bottom" secondItem="lDm-q0-n2J" secondAttribute="bottom" constant="378" id="4Bq-y5-A4u"/>
+                            <constraint firstItem="09Q-c9-Hjy" firstAttribute="trailing" secondItem="lDm-q0-n2J" secondAttribute="trailing" constant="68" id="BCp-qy-xA0"/>
+                            <constraint firstItem="lDm-q0-n2J" firstAttribute="top" secondItem="09Q-c9-Hjy" secondAttribute="top" constant="141" id="v7J-Vj-Hwb"/>
+                            <constraint firstItem="lDm-q0-n2J" firstAttribute="leading" secondItem="09Q-c9-Hjy" secondAttribute="leading" constant="67" id="yQ9-Hy-znb"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="09Q-c9-Hjy"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B3s-CJ-fvv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-138.40000000000001" y="124.58770614692655"/>
+        </scene>
+    </scenes>
+</document>
